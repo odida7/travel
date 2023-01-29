@@ -1,0 +1,211 @@
+.hmtop{
+    width: 100%;
+    position: relative;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.bgpic{
+    width: 70%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.right{
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 30%;
+    margin: 1rem 5rem;
+    box-shadow: 0 0 3rem gray;
+    border-radius: 1rem;
+}
+
+.right h1{
+    margin: 2rem 1rem;
+    color: brown;
+    
+    text-align: center;
+}
+
+
+.right p {
+    margin: 2rem 1rem;
+    text-align: center;
+}
+
+.slider{ 
+    width: 95vw;
+    height: auto;
+    overflow: hidden;
+    margin: 2rem 1rem;
+    align-self: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider h1{
+    text-align: center;
+    color: brown;
+}
+
+.wrapper{
+    width: 195vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease;
+    background-color: rgb(226, 196, 196);
+    
+}
+
+.card{
+    width: 120vw;
+    height: 20rem;
+    background-color: white;
+    border-radius: 5px;
+    margin: 1rem 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.c-pic{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.card span{
+    position: absolute;
+    bottom: 0rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 4rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.bn{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 12rem;
+    z-index: 4;
+}
+
+ .sl{
+   background-color: rgba(0, 0, 0, 0.4);
+   color: white;
+   font-size: 2rem;
+   border-radius: 2px;
+   border: none;
+   padding: 0.5rem 0.5rem;
+}
+
+
+.detail{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+   
+
+.detail video{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 4rem gray;
+    object-fit: cover;
+    position: relative;
+}
+
+.content{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 8;
+}
+
+.content h1{
+    margin-bottom: 5rem;
+}
+
+.over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 5;
+}
+
+.cd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    gap: 3rem;
+}
+
+.cad{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0.2rem;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.cad p {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.hl{
+    width: 90%;
+    color: white;
+}
+
+.b-c{
+    color: white;
+    background-color: rgba(134, 165, 245, 0.571);
+    border-radius: 5px;
+    margin: 1rem 1rem;
+}

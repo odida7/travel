@@ -1,0 +1,91 @@
+.cont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(219, 239, 209);
+}
+
+.containa {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+    margin: 1rem 1rem;
+}
+
+.left-p{
+    width: 30rem;
+    height: 35rem;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.right-c {
+    width: 30rem;
+    height: 35rem;
+    background-color: rgb(187, 197, 187);
+    border-radius: 3px;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.c-inpt{
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 3rem;
+    background-color: rgb(238, 242, 236);
+    margin: 1rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 3px
+}
+
+.cin{
+        width: 90%;
+        height: 8rem;
+        background-color: rgb(238, 242, 236);
+        border: none;
+        border-radius: 3px
+} 
+
+.m-inpt {
+    width: 90%;
+    height: 2rem;
+    background-color: rgb(238, 242, 236);
+    border: none;
+    outline: none;
+    border-radius: 3px
+}
+
+
+
+.c-btn{
+    width: 6rem;
+    height: 3rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: navy;
+    color: white;
+    align-self:  flex-end;
+    margin-right: 1.8rem;
+}
+
+.c-btn:hover {
+    background-color: rgb(203, 203, 242);
+    color: rgb(5, 5, 5);
+}

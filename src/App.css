@@ -1,0 +1,109 @@
+:root {
+  --background: #ebeaea;
+  --color: #262626;
+  --card: #ffffff;
+  --border-radius: 1rem;
+  --button: #55bdf9;
+  --box-shadow: 0 0 2rem grey;
+}
+
+/*dark theme*/
+[data-theme='dark'] {
+  --background: #181818;
+  --color: #fbfafa;
+  --card: #3b3a3a;
+  --border-radius: 1rem;
+  --button: #053f60;
+  --box-shadow: 0 0 2rem rgb(202, 198, 198);
+}
+
+
+.App {
+  background-color: white;
+  color: var(--color);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+
+body{
+  margin: 0 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+  color: white;
+  margin-left: 3rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  cursor: pointer;
+}
+
+.nav{
+  position: fixed;
+  background-color: #053f60;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  
+}
+
+.nav ul{
+  display: flex; 
+  list-style: none;
+  align-items: center;
+  margin-right: 2rem;
+  color: #ffffff;
+  cursor: pointer;
+  gap: 5rem;
+}
+
+.list{
+
+  padding: 0.5rem 0.5rem;
+}
+
+.list:hover {
+  background-color: #0671af;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+.btn{
+  padding: 0.5rem 0.5rem;
+  border: none;
+  border-radius: var(--border-radius);
+  background-color: var(--button);
+  color: var(--color);
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover {
+  background: transparent;
+  border: 1px solid var(--color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color);
+  font-weight: 700;
+}
+
+.link-active{
+  background-color: orangered;
+  color: white;
+}
+
+footer{
+  width: 100%;
+  background-color: #053f60;
+}
+
+.foot{
+  color: white;
+  margin: 1rem 1rem;
+}
